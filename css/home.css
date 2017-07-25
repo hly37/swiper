@@ -1,3 +1,16 @@
+/*.xing{
+	width: 100%;
+	position: absolute;
+	top: 0.5rem;
+}
+.xing img{
+	position: absolute;
+	top: 5%;
+	animation:xing 15s linear infinite;
+}@keyframes xing{
+	from{top: 5%;}
+	to{top: 95%;}
+}*/
 .swiper-slide{
 	position: relative;
 	}
@@ -6,8 +19,13 @@ h5{
 	position: absolute;
 	bottom: 0%;
 	width: 100%;
-	-webkit-animation: ar 2s linear infinite;
+	-webkit-animation: di 2s linear infinite;
 }	
+@keyframes di{
+	0%{bottom:0%}
+	50%{bottom:2%}
+	100%{bottom:3%}
+}
 .slider1{
 	background: url(../img/1-bg.jpg);
 	background-size: cover;
